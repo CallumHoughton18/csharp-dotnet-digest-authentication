@@ -1,5 +1,7 @@
 # Digest Authentication in .NET - An Example
 
+**UPDATE (03/10/2022): .NET 6 should now successfully do digest authentication, [as kindly pointed by someone in the example repository](https://github.com/CallumHoughton18/csharp-dotnet-digest-authentication/issues/1). Should save you the hassle of doing it manually, like in this repository!**
+
 This project contains an extension method in `HttpClientExtensions` that should work out
 of the box for basic digest authentication, and be a good starting point to expand upon.
 
